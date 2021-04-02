@@ -2,17 +2,18 @@
 <html>
 <head>
 <meta charset="UTF-8'">
-<script type="text/javascript" src="widget/widjet.js" id="ISDEKscript" charset="utf-8"></script>
+<script type="text/javascript" id="ISDEKscript" src="https://www.cdek.ru/website/edostavka/template/js/widjet.js" charset="utf-8"></script>
 </head>
 <body>
+<div id="forpvz" style="height:600px;"></div>
 <script type="text/javascript">
    var widjet = new ISDEKWidjet({
        defaultCity: 'Уфа',
        cityFrom: 'Омск',
-       link: 'forpvz'
+       link: 'forpvz',
+       path: 'https://widget.cdek.ru/widget/scripts/',
+       servicepath: 'http://yoursite.net/service.php' //ссылка на файл service.php на вашем сайте
    });
 </script>
-
-<div id="forpvz" style="height:600px;"></div>
 </body>
 </html>
