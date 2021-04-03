@@ -14,10 +14,10 @@ namespace {
             array(234, 136, 138, 15, 17, 10, 12, 5, 62, 63),
             /** Вставьте свой аккаунт\идентификатор для интеграции */
             /** Put your account for integration here */
-            '',
+            'EMscd6r9JnFiQ3bLoyjJY6eM78JrJceI',
             /** Вставьте свой пароль для интеграции */
             /** Put your password for integration here */
-            ''
+            'PjLZkKBHEiLK3YsjtNrt3TGNG0ahs3kG'
         )
     );
 }
